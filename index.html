@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Odin Tic Tac Toe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">Tic-Tac-Toe</div>
+        <div class="names">
+            <form id="name-form">
+                <label for="player1"></label>
+                <input type="text" name="player1" id="player1" placeholder="Player 1 Name">
+
+                <label for="player2"></label>
+                <input type="text" name="player2" id="player2" placeholder="Player 2 Name">
+
+                <button class="start-btn" type="submit" class="submit">Start Game</button>
+            </form>
+        </div>
+        <div class="board">
+            <div class="field" id="spot1"><img src="./images/o-vector.svg" width="98"></div>
+            <div class="field" id="spot2"><img src="./images/x-vector.svg"></div>
+            <div class="field" id="spot3"></div>
+            <div class="field" id="spot4"></div>
+            <div class="field" id="spot5"></div>
+            <div class="field" id="spot6"></div>
+            <div class="field" id="spot7"></div>
+            <div class="field" id="spot8"></div>
+            <div class="field" id="spot9"></div>
+        </div>
+        <div class="turn">Player 1's turn</div>
+    </div>
+</body>
+</html>
