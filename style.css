@@ -182,3 +182,19 @@ input::placeholder, button, input:focus {
     font-weight: 700;
 }
 
+.footer {
+  text-align: center;
+  line-height: 80px;
+  color: #FFF4BD;
+  font-size: 18px;
+  background-color: #2E3E7B;
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF4BD;
+}
+
